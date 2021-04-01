@@ -1,14 +1,11 @@
-.architect
-bootstrap.css
-bootstrap.js
-bootstrap.json
-bootstrap.jsonp
-build/
-classic.json
-classic.jsonp
-ext/
-modern.json
-modern.jsonp
-resources/sass/.sass-cache/
-resources/.arch-internal-preview.css
-.arch-internal-preview.css
+.idea
+
+# dependencies
+node_modules
+/backend/node_modules
+/frontend/node_modules
+
+# production
+/build
+
+/backend/package-lock.json
